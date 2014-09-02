@@ -1,0 +1,24 @@
+﻿ig.module('game.entities.example')
+.requires('impact.entity')
+.defines(function(){
+
+EntityExample = ig.Entity.extend({
+	
+	size:{x:16, y:16},
+	animSheet: new ig.AnimationSheet('media/example.png', 16, 16),
+	
+	init: function(x, y, settings){
+	this.parent(x, y, settings);
+	this.addAnim('exampleani', 1, [0]);
+	},
+	
+	update: function(){
+	this.parent();	
+	this.currentAnim = this.anims.exampleani;
+	}
+	
+	
+
+});
+
+});
