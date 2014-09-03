@@ -6,6 +6,6 @@ By impactjs here: http://impactjs.com/
 Commands
 
 Cursor Keys - move 
-C - jump
-V - fire
+X - jump
+C - fire
 
