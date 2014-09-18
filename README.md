@@ -1,6 +1,6 @@
 moon - JavaScript game for impactjs engine
 
-By impactjs here: http://impactjs.com/
+Buy impactjs here: http://impactjs.com/
 
 
 Commands
